@@ -13,7 +13,13 @@ if (x > 3) {
 
 tokens are hardcoded
 
-```tokens = [
+```
+tokens = [
+    Token('KEYWORD', 'let'),
+    Token('IDENTIFIER', 'x'),
+    Token('OPERATOR', '='),
+    Token('NUMBER', '5'),
+    Token('DELIMITER', ';'),
     Token('KEYWORD', 'if'),
     Token('DELIMITER', '('),
     Token('IDENTIFIER', 'x'),
